@@ -1,0 +1,27 @@
+:root{
+  --font: 'Montserrat', sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: var(--font);
+}
+
+.container{
+  max-width: 1200px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.flex{
+  display: flex;
+} 
+.-between{
+  justify-content: space-between;
+} 
+.-align-center{
+  align-items: center;
+}

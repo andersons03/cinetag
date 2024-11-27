@@ -1,0 +1,32 @@
+.card{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+  max-width: max-content;
+  width: 282px;
+
+  &__title{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  &__content{
+    background-color: #E2E2E2;
+    padding: 16px 27px;
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__favorite{
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: var(--preto);
+  text-align: left;
+}
